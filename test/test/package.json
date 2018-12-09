@@ -1,0 +1,40 @@
+{
+  "name": "@anka-dev/anka-quickstart",
+  "version": "0.0.1",
+  "description": "",
+  "main": "anka.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iException/anka-quickstart.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iException/anka-quickstart/issues"
+  },
+  "homepage": "https://github.com/iException/anka-quickstart#readme",
+  "dependencies": {
+    "@anka-dev/tracker": "^0.3.3",
+    "@babel/runtime": "^7.1.5",
+    "babel-runtime": "^6.26.0",
+    "js-deep-diff": "0.0.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "postcss-for": "^2.1.1",
+    "postcss-import": "^12.0.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-preset-env": "^6.4.0",
+    "postcss-reporter": "^6.0.0",
+    "stylelint": "^9.5.0",
+    "stylelint-config-standard": "^18.2.0"
+  }
+}

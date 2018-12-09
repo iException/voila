@@ -1,0 +1,16 @@
+
+<image
+    src="/images/anka.png"
+    mode="aspectFit"
+/>
+
+<view>page: home</view>
+
+{{name}}
+value: {{value}}
+computedValue: {{computedValue}}
+
+<button bind:tap="onTap">update</button>
+
+<navigator url="/pages/index/index">index page</navigator>
+<navigator url="/package/test/test">test page</navigator>
